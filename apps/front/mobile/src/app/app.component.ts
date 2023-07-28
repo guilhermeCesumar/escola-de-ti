@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'escola-de-ti-root',
-  templateUrl: './app.component.html',
+  template: `<router-outlet />`,
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
